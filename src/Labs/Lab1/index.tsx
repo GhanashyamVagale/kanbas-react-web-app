@@ -16,19 +16,26 @@ export default function Lab1() {
         large headings. There are 6 heading tags for different sizes: h1, h2,
         h3, h4, h5, and h6. Tag h1 is the largest heading and h6 is the smallest
         heading.
-        <h4>Paragraphs</h4>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book
+      </div>
+      <div id="wd-p-tag">
+        <h4>Paragraph Tag</h4>
+        <p id="wd-p-1"> ... </p>
+        <p id="wd-p-2">
+          This is the first paragraph. The paragraph tag is used to format
+          vertical gaps between long pieces of text like this one.
         </p>
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book
+        <p id="wd-p-3">
+          This is the second paragraph. Even though there is a deliberate white
+          gap between the paragraph above and this paragraph, by default
+          browsers render them as one contiguous piece of text as shown here on
+          the right.
         </p>
+        <p id="wd-p-4">
+          This is the third paragraph. Wrap each paragraph with the paragraph
+          tag to tell browsers to render the gaps.
+        </p>
+      </div>
+
         <div id="wd-lists">
           <h4>List Tags</h4>
           <h5>Ordered List Tag</h5>
@@ -43,6 +50,35 @@ export default function Lab1() {
             <li>Flip and cook the other side.</li>
             <li>Serve and enjoy!</li>
           </ol>
+          My favorite recipe:
+          <ol id="wd-your-favorite-recipe">
+            <li>Fill water in bowl.</li>
+            <li>Open the maggie pack.</li>
+            <li>Put maggie in bowl.</li>
+            <li>Add the Masala.</li>
+            <li>Put in microwave.</li>
+            <li>Set timer to 5 minutes.</li>
+            <li>Take out after the timer.</li>
+            </ol>
+            <h5>Unordered List Tag</h5>
+          My favorite books (in no particular order)
+          <ul id="wd-my-books">
+            <li>Dune</li>
+            <li>Lord of the Rings</li>
+            <li>Ender's Game</li>
+            <li>Red Mars</li>
+            <li>The Forever War</li>
+          </ul>
+          Your favorite books (in no particular order)
+          <ul id="wd-your-books">
+            <li>Five Point Someone</li>
+            <li>2 States</li>
+            <li>The 3 mistakes of my life</li>
+            <li>One night at the call centre</li>
+            <li>Revolution 2020</li>
+            <li>Half Girlfriend</li>
+          </ul>
+
         </div>
         <div id="wd-tables">
           <h4>Table Tag</h4>
@@ -101,7 +137,6 @@ export default function Lab1() {
             </tfoot>
           </table>
         </div>
-      </div>
       <div id="wd-images">
         <h4>Image tag</h4>
         Loading an image from the internet:
@@ -114,7 +149,7 @@ export default function Lab1() {
         <br />
         Loading a local image:
         <br />
-        <img id="wd-teslabot" src="images/teslabot.jpg" height="200px" />
+        <img id="wd-teslabot" src="images/teslabot.webp" height="200px" />
       </div>
 
       <div id="wd-forms">
@@ -122,19 +157,19 @@ export default function Lab1() {
         {/* <form id="wd-text-fields"> */}
         <h5>Text Fields</h5>
         <label htmlFor="wd-text-fields-username">Username:</label>
-        <input id="wd-text-fields-username" type="text" placeholder="jdoe" />
+        <input id="wd-text-fields-username" type="text" placeholder="Ghanashyam" />
         <br />
         <label htmlFor="wd-text-fields-password">Password:</label>
-        <input type="password" id="wd-text-fields-password" value="123@#$asd" />
+        <input type="password" id="wd-text-fields-password" value="Gvs123" />
         <br />
         <label htmlFor="wd-text-fields-first-name">First name:</label>
-        <input type="text" id="wd-text-fields-first-name" title="John" /> <br />
+        <input type="text" id="wd-text-fields-first-name" title="Shyam" /> <br />
         <label htmlFor="wd-text-fields-last-name">Last name:</label>
         <input
           type="text"
           id="wd-text-fields-last-name"
-          placeholder="Doe"
-          value="Wonderland"
+          placeholder="VS"
+          value="Vagale"
           title="The last name"
         />
         <h5>Text boxes</h5>
@@ -186,7 +221,6 @@ export default function Lab1() {
         <br />
         <input type="checkbox" name="check-genre" id="wd-chkbox-fantasy" />
         <label htmlFor="wd-chkbox-fantasy">Fantasy</label>
-        {/* </form> */}
         <h4 id="wd-dropdowns">Dropdowns</h4>
         <h5>Select one</h5>
         <label htmlFor="wd-select-one-genre">Favorite movie genre: </label>
@@ -215,36 +249,35 @@ export default function Lab1() {
           <option value="FANTASY">Fantasy</option>
         </select>
         <h4>Other HTML field types</h4>
-        <label htmlFor="wd-text-fields-salary-start">Starting salary:</label>
-        <input
-          type="number"
-          id="wd-text-fields-salary-start"
-          placeholder="1000"
-          defaultValue="10001"
-          min="10000"
-          max="10005"
-        />
-        <br />
-        <label htmlFor="wd-text-fields-rating">Rating: </label>
-        <input
-          type="range"
-          id="wd-text-fields-rating"
-          placeholder="Doe"
-          max="5"
-          defaultValue="4"
-        />
-        <br />
-        <label htmlFor="wd-text-fields-email">Email: </label>
-        <input
-          type="email"
-          placeholder="jdoe@somewhere.com"
-          id="wd-text-fields-email"
-        />
-        <br />
-        <label htmlFor="wd-text-fields-dob">Date of birth: </label>
-        <input type="date" id="wd-text-fields-dob" defaultValue="2000-01-21" />
-        <br />
+        <label htmlFor="wd-text-fields-email"> Email: </label>
+        <input type="email"
+              placeholder="ghanashyam@gmail.com"
+              id="wd-text-fields-email"/><br/>
+
+        <label htmlFor="wd-text-fields-salary-start"> Starting salary:
+        </label>
+        <input type="number"
+              id="wd-text-fields-salary-start"
+              placeholder="1000"
+              value="1000000"/><br/>
+
+        <label htmlFor="wd-text-fields-rating"> Rating: </label>
+        <input type="range" id="wd-text-fields-rating"
+              placeholder="Doe"
+              max="5"
+              value="4"/><br/>
+
+        <label htmlFor="wd-text-fields-dob"> Date of birth: </label>
+        <input type="date"
+              id="wd-text-fields-dob"
+              value="2000-01-21"/><br/>
+
+        <h4>Anchor tag</h4>
+        Please
+        <a id="wd-lipsum" href="https://www.lipsum.com"> click here </a>
+        to get dummy text<br/>
       </div>
     </div>
+    
   );
 }
