@@ -1,7 +1,15 @@
-export default function Modules() {
+const Modules = () => {
   return (
     <div>
-      {/* Implement Collapse All button, View Progress button, etc. */}
+      <button>Collapse All</button>
+      <button>View Progress</button>
+      <select>
+        <option value="PUBLISH ALL">Publish All</option>
+        <option value="OPTION 1">Option 1</option>
+        <option value="OPTION 2">Option 2</option>
+        <option value="OPTION 3">Option 3</option>
+      </select>
+      <button>+ Module</button><br />
       <ul id="wd-modules">
         <li className="wd-module">
           <div className="wd-title">Week 1, Lecture 1 - Course Introduction, Syllabus, Agenda</div>
@@ -9,7 +17,9 @@ export default function Modules() {
             <li className="wd-lesson">
               <span className="wd-title">LEARNING OBJECTIVES</span>
               <ul className="wd-content">
-                <li className="wd-content-item">Introduction to the course</li>
+                <li className="wd-content-item">
+                  Introduction to the course
+                </li>
                 <li className="wd-content-item">
                   Learn what is Web Development
                 </li>
@@ -18,20 +28,26 @@ export default function Modules() {
             <li className="wd-lesson">
               <span className="wd-title">READING</span>
               <ul className="wd-content">
-                <li className="wd-content-item">Full Stack Developer - Chapter 1 - Introduction</li>
                 <li className="wd-content-item">
-                Full Stack Developer - Chapter 2 - Creating User
+                  Full Stack Developer - Chapter 1 - Introduction
+                </li>
+                <li className="wd-content-item">
+                  Full Stack Developer - Chapter 2 - Creating User
                 </li>
               </ul>
             </li>
             <li className="wd-lesson">
               <span className="wd-title">SLIDES</span>
               <ul className="wd-content">
-                <li className="wd-content-item">Introduction to Web Development</li>
                 <li className="wd-content-item">
-                Creating an HTTP server with Node.js
+                  Introduction to Web Development
                 </li>
-                <li className="wd-content-item">Creating a React Application</li>
+                <li className="wd-content-item">
+                  Creating an HTTP server with Node.js
+                </li>
+                <li className="wd-content-item">
+                  Creating a React Application
+                </li>
               </ul>
             </li>
           </ul>
@@ -47,4 +63,6 @@ export default function Modules() {
       </ul>
     </div>
   );
-}
+};
+
+export default Modules;
