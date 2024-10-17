@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Signin() {
+const Signin = () => {
   return (
     <div id="wd-signin-screen" style={{ width: "400px" }}>
       <h1>Sign In</h1>
@@ -31,4 +31,6 @@ export default function Signin() {
       </Link>
     </div>
   );
-}
+};
+
+export default Signin;
