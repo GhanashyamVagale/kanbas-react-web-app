@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function Signup() {
+const Signup = () => {
   return (
     <div id="wd-signup-screen" style={{ width: "400px" }}>
       <h1>Sign Up</h1>
@@ -31,8 +31,10 @@ export default function Signup() {
       <Link
         to="/Kanbas/Account/Signin"
       >
-        Sign in
+        Sign ip
       </Link>
     </div>
   );
-}
+};
+
+export default Signup;

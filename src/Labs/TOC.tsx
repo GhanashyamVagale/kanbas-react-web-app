@@ -35,7 +35,7 @@ const TOC = () => {
         </li>
         <li className="nav-item">
           <a id="wd-k" href="https://github.com/GhanashyamVagale/kanbas-react-web-app" className="nav-link" target="_blank" rel="noopener noreferrer">
-            GitHub
+            My GitHub
           </a>
         </li>
       </ul>

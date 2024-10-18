@@ -6,14 +6,14 @@ const Profile = () => {
       <h1>Profile</h1>
       <input
         id="wd-username"
-        defaultValue="GhanashyamVagale"
+        defaultValue="Ghanashyam"
         type="text"
         placeholder="Username"
         className="form-control mb-2"
       />
       <input
         id="wd-password"
-        defaultValue="Gvs.2001"
+        defaultValue="123456"
         type="password"
         placeholder="Password"
         className="form-control mb-2"
@@ -40,7 +40,7 @@ const Profile = () => {
       />
       <input
         id="wd-email"
-        defaultValue="vagalesrinivas.g@northeastern.edu"
+        defaultValue="GhanashyamVagale@northeastern.edu"
         type="email"
         placeholder="your.email@example.com"
         className="form-control mb-2"
