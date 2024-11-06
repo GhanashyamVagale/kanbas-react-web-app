@@ -7,8 +7,4 @@ const helloSlice = createSlice({
   initialState,
   reducers: {},
 });
-<<<<<<< HEAD
 export default helloSlice.reducer;
-=======
-export default helloSlice.reducer;
->>>>>>> acc68c40b3ca5e785466cdbed79e85c75074fb3a

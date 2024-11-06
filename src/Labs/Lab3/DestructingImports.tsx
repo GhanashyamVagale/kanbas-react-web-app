@@ -14,29 +14,18 @@ export default function DestructingImports() {
           </tr>
         </thead>
         <tbody>
-            <tr>
+          <tr>
             <td>Math.add(2, 3) = {Math.add(2, 3)}</td>
-<<<<<<< HEAD
             <td>Matematica.add(2, 3) ={Matematica.add(2, 3)}</td>
-=======
-            <td>Matematica.add(2, 3) =
-                {Matematica.add(2, 3)}</td>
->>>>>>> acc68c40b3ca5e785466cdbed79e85c75074fb3a
             <td>add(2, 3) = {add(2, 3)}</td>
-            </tr>
-            <tr>
+          </tr>
+          <tr>
             <td>Math.subtract(5, 1) = {Math.subtract(5, 1)}</td>
-<<<<<<< HEAD
             <td>Matematica.subtract(5, 1) ={Matematica.subtract(5, 1)}</td>
-=======
-            <td>Matematica.subtract(5, 1) =
-                {Matematica.subtract(5, 1)}</td>
->>>>>>> acc68c40b3ca5e785466cdbed79e85c75074fb3a
             <td>subtract(5, 1) = {subtract(5, 1)}</td>
-            </tr>
-            <tr>
+          </tr>
+          <tr>
             <td>Math.multiply(3, 4) = {Math.multiply(3, 4)}</td>
-<<<<<<< HEAD
             <td>Matematica.multiply(3, 4) ={Matematica.multiply(3, 4)}</td>
             <td>multiply(3, 4) = {multiply(3, 4)}</td>
           </tr>
@@ -45,25 +34,9 @@ export default function DestructingImports() {
             <td>Matematica.divide(8, 2) ={Matematica.divide(8, 2)}</td>
             <td>divide(8, 2) = {divide(8, 2)}</td>
           </tr>
-=======
-            <td>Matematica.multiply(3, 4) =
-                {Matematica.multiply(3, 4)}</td>
-            <td>multiply(3, 4) = {multiply(3, 4)}</td>
-            </tr>
-            <tr>
-            <td>Math.divide(8,2) = {Math.divide(8,2)}</td>
-            <td>Matematica.divide(8,2) =
-                {Matematica.divide(8,2)}</td>
-            <td>divide(8,2) = {divide(8,2)}</td>
-            </tr>
->>>>>>> acc68c40b3ca5e785466cdbed79e85c75074fb3a
         </tbody>
       </table>
       <hr />
     </div>
-<<<<<<< HEAD
   );
 }
-=======
-);}
->>>>>>> acc68c40b3ca5e785466cdbed79e85c75074fb3a

@@ -14,7 +14,7 @@ export default function TOC() {
           href="#/Labs/Lab1"
           className={`nav-link ${pathname.includes("Lab1") ? "active" : ""}`}
         >
-          Lab 1 (Default)
+          Lab 1
         </a>
       </li>
       <li className="nav-item">
@@ -52,7 +52,7 @@ export default function TOC() {
       <li className="nav-item">
         <a
           id="wd-k"
-          href="https://github.com/GhanashyamVagale/kanbas-react-web-app"
+          href="https://github.com/GhanashyamVagale/kanbas-react-web-app/"
           className="nav-link"
         >
           My GitHub
