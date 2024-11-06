@@ -12,7 +12,7 @@ const todosSlice = createSlice({
   reducers: {
     addTodo: (state, action) => {
       const newTodos = [
-          ...state.todos,
+        ...state.todos,
         { ...action.payload, id: new Date().getTime().toString() },
       ];
       state.todos = newTodos;
@@ -36,4 +36,7 @@ const todosSlice = createSlice({
 });
 export const { addTodo, deleteTodo, updateTodo, setTodo } = todosSlice.actions;
 export default todosSlice.reducer;
+<<<<<<< HEAD:src/Labs/Lab4/ReduxExamples/Todos/todosReducer.ts
+=======
 
+>>>>>>> acc68c40b3ca5e785466cdbed79e85c75074fb3a:src/Labs/Lab4/ReduxExamples/todos/todosReducer.tsx

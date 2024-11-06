@@ -1,5 +1,17 @@
 /** 
 const ConditionalOutputIfElse = () => {
+<<<<<<< HEAD
+  const loggedIn = true;
+  if (loggedIn) {
+    return <h2 id="wd-conditional-output-if-else-welcome">Welcome If Else</h2>;
+  } else {
+    return (
+      <h2 id="wd-conditional-output-if-else-login">Please login If Else</h2>
+    );
+  }
+};
+export default ConditionalOutputIfElse;
+=======
     const loggedIn = true;
     if(loggedIn) {
       return (<h2 id="wd-conditional-output-if-else-welcome">Welcome If Else</h2>);
@@ -18,3 +30,4 @@ const loggedIn = false;
       </div>
    );};
    export default ConditionalOutputInline;
+>>>>>>> acc68c40b3ca5e785466cdbed79e85c75074fb3a

@@ -8,6 +8,15 @@ export default function StringStateVariables() {
       <input
         className="form-control"
         defaultValue={firstName}
+<<<<<<< HEAD
+        onChange={(e) => setFirstName(e.target.value)}
+      />
+      <hr />
+    </div>
+  );
+}
+=======
         onChange={(e) => setFirstName(e.target.value)}/>
 <hr/></div>);}
 
+>>>>>>> acc68c40b3ca5e785466cdbed79e85c75074fb3a
