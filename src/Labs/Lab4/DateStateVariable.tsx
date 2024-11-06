@@ -1,14 +1,11 @@
-import { useState } from "react";
-
-const DateStateVariable = () => {
+import React, { useState } from "react";
+export default function DateStateVariable() {
   const [startDate, setStartDate] = useState(new Date());
-
   const dateObjectToHtmlDateString = (date: Date) => {
     return `${date.getFullYear()}-${date.getMonth() + 1 < 10 ? 0 : ""}${
       date.getMonth() + 1
     }-${date.getDate() + 1 < 10 ? 0 : ""}${date.getDate() + 1}`;
   };
-  
   return (
     <div id="wd-date-state-variables">
       <h2>Date State Variables</h2>
@@ -20,9 +17,4 @@ const DateStateVariable = () => {
         defaultValue={dateObjectToHtmlDateString(startDate)}
         onChange={(e) => setStartDate(new Date(e.target.value))}
       />
-      <hr/>
-    </div>
-  );
-};
-
-export default DateStateVariable;
+<hr/></div>);}

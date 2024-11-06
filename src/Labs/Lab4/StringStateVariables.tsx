@@ -1,19 +1,13 @@
-import { useState } from "react";
-
-const StringStateVariables = () => {
-  const [firstName, setFirstName] = useState("Ghanashyam");
-  
+import React, { useState } from "react";
+export default function StringStateVariables() {
+  const [firstName, setFirstName] = useState("John");
   return (
-    <div className="wd-string-state-variables">
+    <div>
       <h2>String State Variables</h2>
       <p>{firstName}</p>
       <input
         className="form-control"
         defaultValue={firstName}
         onChange={(e) => setFirstName(e.target.value)}/>
-      <hr/>
-    </div>
-  );
-};
+<hr/></div>);}
 
-export default StringStateVariables;

@@ -1,10 +1,8 @@
-import { useState } from "react";
-
-const ObjectStateVariable = () => {
+import React, { useState } from "react";
+export default function ObjectStateVariable() {
   const [person, setPerson] = useState({ name: "Peter", age: 24 });
-  
   return (
-    <div id="wd-object-state-variables">
+    <div>
       <h2>Object State Variables</h2>
       <pre>{JSON.stringify(person, null, 2)}</pre>
       <input
@@ -13,11 +11,10 @@ const ObjectStateVariable = () => {
       />
       <input
         defaultValue={person.age}
-        onChange={(e) => setPerson({ ...person, age: parseInt(e.target.value) })}
+        onChange={(e) => setPerson({ ...person,
+                                     age: parseInt(e.target.value) })}
       />
       <hr/>
     </div>
   );
-};
-
-export default ObjectStateVariable;
+}
