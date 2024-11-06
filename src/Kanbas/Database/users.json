@@ -1,19 +1,5 @@
 [
   {
-    "_id": "111",
-    "username": "GhanashyamVagale",
-    "password": "Gvs.123",
-    "firstName": "Ghanashyam",
-    "lastName": "Vagale",
-    "email": "ghanashyam@gmail.com",
-    "dob": "2001-12-30T00:00:00.000Z",
-    "role": "TA",
-    "loginId": "001234560S",
-    "section": "S101",
-    "lastActivity": "2024-10-17",
-    "totalActivity": "99:59:59"
-  },
-  {
     "_id": "123",
     "username": "iron_man",
     "password": "stark123",
