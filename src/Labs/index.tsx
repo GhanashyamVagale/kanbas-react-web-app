@@ -3,10 +3,14 @@ import TOC from "./TOC";
 import Lab1 from "./Lab1";
 import Lab2 from "./Lab2";
 import Lab3 from "./Lab3";
+import Lab4 from "./Lab4";
+import store from "./store";
+import { Provider } from "react-redux";
 
 const Labs = () => {
   return (
-    <div id="wd-labs">
+    <Provider store={store}>
+      <div id="wd-labs">
       <h1>Ghanashyam Vagale Srinivas</h1>
       <h1>Section 03</h1>
       <p>
@@ -14,16 +18,18 @@ const Labs = () => {
           <strong>GitHub</strong>
         </a> repository.
       </p>
-      <hr />
-      <TOC />
-      <hr />
-      <Routes>
-        <Route path="/" element={<Navigate to="Lab1" />} />
-        <Route path="Lab1" element={<Lab1 />} />
-        <Route path="Lab2" element={<Lab2 />} />
-        <Route path="Lab3/*" element={<Lab3 />} />
-      </Routes>
-    </div>
+        <hr />
+        <TOC />
+        <hr />
+        <Routes>
+          <Route path="/" element={<Navigate to="Lab1" />} />
+          <Route path="Lab1" element={<Lab1 />} />
+          <Route path="Lab2" element={<Lab2 />} />
+          <Route path="Lab3/*" element={<Lab3 />} />
+          <Route path="Lab4/*" element={<Lab4 />} />
+        </Routes>
+      </div>
+    </Provider>
   );
 };
 

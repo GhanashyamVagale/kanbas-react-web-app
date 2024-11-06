@@ -29,12 +29,17 @@ const TOC = () => {
           </a>
         </li>
         <li className="nav-item">
+          <a id="wd-a4" href="#/Labs/Lab4" className={`nav-link ${pathname.includes("Lab4") ? "active" : ""}`}>
+            Lab4
+          </a>
+        </li>
+        <li className="nav-item">
           <a id="wd-k" href="#/Kanbas" className="nav-link">
             Kanbas
           </a>
         </li>
         <li className="nav-item">
-          <a id="wd-k" href="https://github.com/GhanashyamVagale/kanbas-react-web-app" className="nav-link" target="_blank" rel="noopener noreferrer">
+          <a id="wd-k" href="https://github.com/GhanashyamVagale/" className="nav-link" target="_blank" rel="noopener noreferrer">
             My GitHub
           </a>
         </li>
